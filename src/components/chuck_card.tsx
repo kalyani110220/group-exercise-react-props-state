@@ -14,7 +14,7 @@ const ChuckCard: React.FC<ChuckCardProps> = ({greeting}) => {
 			{/* 💡 We can insert JavaScript into our JSX using curly braces like the ones below in the h2 */}
 			<h2>{greeting }</h2>
 
-			<img src={'https://i.pinimg.com/originals/0b/c2/f4/0bc2f417af8030b3f4390a0b3a1d8357.jpg'} alt='A handsome man' width={200} height={200} />
+			<img src={ChuckImage} alt='A handsome man' width={200} height={200} />
 		</>
 	)
 }
