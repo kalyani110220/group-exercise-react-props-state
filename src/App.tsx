@@ -33,7 +33,7 @@ function App() {
 			<ChuckCard greeting='Hello' />
 
 			<h2>Chuck Info: </h2>
-			<ChuckInfo />
+			<ChuckInfo numWhalesSaved={whalesSaved} numRoundHouseKicks={roundHouseKicks} />
 
 			<h2>Jokes: </h2>
 
